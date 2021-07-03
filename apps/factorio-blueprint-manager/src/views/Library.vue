@@ -1,5 +1,5 @@
 <template>
-  <div>Those are your blueprints</div>
+  <div class="font-mono">Those are your blueprints</div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
