@@ -1,13 +1,16 @@
 <template>
-  <div class="font-mono">Those are your blueprints</div>
+  <div class="font-mono">{{ fakeProp }}</div>
 </template>
 <script lang="ts">
-import { defineComponent } from "vue";
+import { computed, defineComponent } from "vue";
+import { useStore } from "../store";
 
 export default defineComponent({
   setup() {
-    // TODO
-    return {};
+    const store = useStore();
+    return {
+      fakeProp: computed(() => store.state.fakeProp),
+    };
   },
 });
 </script>
