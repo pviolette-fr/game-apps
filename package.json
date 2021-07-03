@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "engines": {
+    "yarn": ">=1.17.3"
+  },
+  "name": "@pviolette/game-apps",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

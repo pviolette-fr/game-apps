@@ -1,0 +1,11 @@
+{
+  "name": "@pviolette/factorio-blueprint-utils",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "author": "Paulin Violette",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
